@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Ubuntu Mono:size=9:antialias=true:autohint=true";
-static int borderpx = 6;
+static char *font = "Ubuntu Mono:size=11:antialias=true:autohint=true";
+static int borderpx = 3;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -96,32 +96,32 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-  "#0f0f14", // bg
-  "#8c4351", // red
-  "#33635c", // green
-  "#8f5e15", // yellow
-  "#34548a", // blue 
-  "#5a4a78", // magenta
-  "#0f4b6e", // cyan
-  "#cfc9c2", // fg
+  "#090618", // bg
+  "#c34043", // red
+  "#76946a", // green
+  "#c0a36e", // yellow
+  "#7e9cd8", // blue 
+  "#957fb8", // magenta
+  "#6a9589", // cyan
+  "#c8c093", // fg
 
 	/* 8 bright colors */
-  "#0f0f14", // bg
-  "#8c4351", // red
-  "#33635c", // green
-  "#8f5e15", // yellow
-  "#34548a", // blue
-  "#5a4a78", // magenta
-  "#0f4b6e", // cyan
-  "#cfc9c2", // fg
+  "#727169", // bg
+  "#e82424", // red
+  "#98bb6c", // green
+  "#e6c384", // yellow
+  "#7fb4ca", // blue
+  "#938aa9", // magenta
+  "#7aa89f", // cyan
+  "#dcd7ba", // fg
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
-	"#cfc9c2", /* default foreground colour */
-	"#0f0f14", /* default background colour */
+	"#c8c093",
+	"#2d4f67",
+	"#dcd7ba", /* default foreground colour */
+	"#1f1f28", /* default background colour */
 };
 
 
